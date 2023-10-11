@@ -1,0 +1,23 @@
+{
+    "AIR_CIA": {
+        "folder_path_incremental": "/Users/USUARIO/Library/CloudStorage/OneDrive-Personal/Documentos/Casos/Eleflow/de_case_response/data/staged/AIR_CIA",
+        "folder_path_history": "/Users/USUARIO/Library/CloudStorage/OneDrive-Personal/Documentos/Casos/Eleflow/de_case_response/data/bronze/AIR_CIA",
+        "pks": ["cnpj"],
+        "order_by": "timestamp",
+        "file_format": "parquet"
+    },
+    "VRA": {
+        "folder_path_incremental": "/Users/USUARIO/Library/CloudStorage/OneDrive-Personal/Documentos/Casos/Eleflow/de_case_response/data/staged/VRA",
+        "folder_path_history": "/Users/USUARIO/Library/CloudStorage/OneDrive-Personal/Documentos/Casos/Eleflow/de_case_response/data/bronze/VRA",
+        "pks": ["numero_voo", "ICAO_aerodromo_origem", "ICAO_aerodromo_destino", "partida_prevista", "partida_real"],
+        "order_by": "timestamp",
+        "file_format": "parquet"
+    },
+    "icaos": {
+        "folder_path_incremental": "/Users/USUARIO/Library/CloudStorage/OneDrive-Personal/Documentos/Casos/Eleflow/de_case_response/data/staged/icaos",
+        "folder_path_history": "/Users/USUARIO/Library/CloudStorage/OneDrive-Personal/Documentos/Casos/Eleflow/de_case_response/data/bronze/icaos",
+        "pks": ["icao"],
+        "order_by": "timestamp",
+        "file_format": "parquet"
+    }
+}

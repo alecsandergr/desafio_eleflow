@@ -1,0 +1,10 @@
+{
+    "AIR_CIA": {
+        "folder_path": "/Users/USUARIO/Library/CloudStorage/OneDrive-Personal/Documentos/Casos/Eleflow/de_case_response/data/landing/AIR_CIA",
+        "file_format": "csv"
+    },
+    "VRA": {
+        "folder_path": "/Users/USUARIO/Library/CloudStorage/OneDrive-Personal/Documentos/Casos/Eleflow/de_case_response/data/landing/VRA",
+        "file_format": "json"
+    }
+}

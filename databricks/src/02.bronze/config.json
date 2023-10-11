@@ -1,0 +1,23 @@
+{
+    "AIR_CIA": {
+        "folder_path_incremental": "eleflow/datalake/raw/AIR_CIA",
+        "folder_path_history": "eleflow/datalake/raw/AIR_CIA",
+        "pks": ["cnpj"],
+        "order_by": "timestamp",
+        "file_format": "parquet"
+    },
+    "VRA": {
+        "folder_path_incremental": "eleflow/datalake/raw/VRA",
+        "folder_path_history": "eleflow/datalake/raw/VRA",
+        "pks": ["numero_voo", "ICAO_aerodromo_origem", "ICAO_aerodromo_destino", "partida_prevista", "partida_real"],
+        "order_by": "timestamp",
+        "file_format": "parquet"
+    },
+    "icaos": {
+        "folder_path_incremental": "eleflow/datalake/raw/icaos",
+        "folder_path_history": "eleflow/datalake/raw/icaos",
+        "pks": ["icao"],
+        "order_by": "timestamp",
+        "file_format": "parquet"
+    }
+}

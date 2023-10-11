@@ -1,0 +1,10 @@
+{
+    "AIR_CIA": {
+        "folder_path": "eleflow/datalake/landing/AIR_CIA",
+        "file_format": "csv"
+    },
+    "VRA": {
+        "folder_path": "eleflow/datalake/landing/VRA",
+        "file_format": "json"
+    }
+}
