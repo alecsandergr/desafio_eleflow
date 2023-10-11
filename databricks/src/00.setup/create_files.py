@@ -60,7 +60,7 @@ for path in paths:
     print(f'Number of files after script: {len(nb_af_running)}')
 
 # Creates the .env file
-dbutils.fs.put('dbfs:/eleflow/config/01.raw/.env', "API_KEY=a9129ee409msh9c230e2905c0848p1ecd6fjsn191243e8ce97")
+dbutils.fs.put('dbfs:/eleflow/config/01.raw/.env', "API_KEY={your_api}")
 
 # COMMAND ----------
 
